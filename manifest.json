@@ -1,0 +1,20 @@
+{
+  "name": "Hypergate PlayStore fixer",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Helps if Hypergate is not showing up in your managed GooglePlay store search.",
+  "homepage_url": "https://hypergate.com",
+  "icons": {
+    "128": "icons/icon128.png"
+  },
+  "browser_action": {
+    "default_icon": "icons/icon128.png",
+    "default_title": "Search for Playstore Iframe"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "background":{
+    "scripts":["js/listener.js"]
+  }
+}
